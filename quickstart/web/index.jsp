@@ -1,31 +1,16 @@
 <%--
   Created by IntelliJ IDEA.
   User: 37505
-  Date: 2019/9/27
-  Time: 21:47
+  Date: 2019/10/5
+  Time: 20:52
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-  <title>quickstart首页</title>
-</head>
-<body>
-<%
-  String username = (String) session.getAttribute("username");
-  if (username != null) {
-    pageContext.setAttribute("username", username);
-%>
-<h3>
-  欢迎你:${username}
-</h3>
-<%
-} else {
-%>
-<h3>用户未登录</h3>
-<a href="${pageContext.request.contextPath}/">去登陆</a>
-<%
-  }
-%>
-</body>
+  <head>
+    <title>quicstart</title>
+  </head>
+  <body>
+  quicstart
+  </body>
 </html>
